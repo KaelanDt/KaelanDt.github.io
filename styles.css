@@ -37,8 +37,7 @@ main {
 }
 
 .content {
-    margin: 0;
-    max-width: 600px;
+    margin: 20px;
 }
 
 .gif-container {
