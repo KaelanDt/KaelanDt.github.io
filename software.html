@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="books.html">Books</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     Most of my past work has revolved around numerical methods, for which libraries and packages are very useful. For my first research projects I used <li><a href="https://github.com/JuliaLang/julia">julia</a></li>, which gave me a taste for functional programming, and I was an avid user of <li><a href="https://github.com/qojulia/QuantumOptics.jl">QuantumOptics.jl</a></li> for some time.
+     Then I started machine learning, and for this I started with <li><a href="https://github.com/FluxML/Flux.jl">Flux.jl</a></li>, which is great but lacks a lot of support for modern tools. 
+     I therefore went over to python, and used <li><a href="https://github.com/netket/netket">netket</a></li>, a great <li><a href="https://github.com/google/jax">jax</a></li>-based tool developed by a F. Vicentini, a former labmate.
+     At Normal, I have contributed to two open-source packages, one PyTorch-based, one jax-based (because why not?):
+     <h1>Open-source contributions</h1>
+        
+        <h2>2024</h2>
+        <ul>
+            <li><strong> <li><a href="https://github.com/normal-computing/posteriors">posteriors</a></li </strong><br>
+                <i> S. Duffield, Me, and J. Chiu, P. Klett and D. Simpson</i><br>
+                posteriors is the *go-to library* for uncertainty quantification of LLMs. It is functional, swappable, transformers-compatible and contains the basic important methods. I also contributed an efficient conjugate gradient solver using fisher-vector products in pytorch, which doesn't seem to exist anywhere.
+                Check out the <li><a href="https://www.normalcomputing.com/blog-posts/posteriors-normal-computings-library-for-uncertainty-aware-llms-3">blog post</a></li
+            </li>     
+            <li><strong> <li><a href="https://github.com/normal-computing/thermox">thermox</a></li </strong><br>
+                <i> S. Duffield & Me</i><br>
+            thermox is the *best OU process simulator*, as it is exact, GPU-compatible and uses associative scans. This is used internally by us for simulation thermodynamic hardware, but can be useful for many other things (finance people contributions welcome!).
+             Check out the <li><a href="https://www.normalcomputing.com/blog-posts/thermox-the-first-thermodynamic-computing-simulator">blog post</a></li
+            </li>
+        </ul>
+        
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Kaelan Donatella</p>
+    </footer>
+</body>
+</html>
