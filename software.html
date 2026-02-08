@@ -18,10 +18,16 @@
     <main>
      Most of my past work has revolved around numerical methods for scientific computing, for which libraries and packages are very useful. For my first research projects I used <a href="https://github.com/JuliaLang/julia">julia</a>, which gave me a taste for functional programming, and I was an avid user of <a href="https://github.com/qojulia/QuantumOptics.jl">QuantumOptics.jl</a> for some time.
      Then I started machine learning, and for this I first used <a href="https://github.com/FluxML/Flux.jl">Flux.jl</a>, which is great but lacks a lot of support for modern tools. 
-     I therefore went over to python, and used <a href="https://github.com/netket/netket">netket</a>, a great <a href="https://github.com/google/jax">jax</a>-based tool developed by a F. Vicentini, a former labmate.
-    Below is the list of my open source contributions.
+     I therefore went over to Python, and used <a href="https://github.com/netket/netket">netket</a>, a great <a href="https://github.com/google/jax">jax</a>-based livrary spearheaded by a F. Vicentini, a former labmate.
+    After that at Normal I worked on a few nice libraries for thermodynamic computing and more recently I worked a bit on Thunder, Lightning's PyTorch compiler.
      <h2>Open-source contributions</h2>
-        
+        <h3>2025</h3>
+        <ul>
+            <li><strong> <a href="https://github.com/lightning-ai/lightning-thunder">Thunder</a> </strong><br>
+                <i> Thomas Viehmann et al. </i><br>
+                Thunder is a PyTorch compiler that aims to simplify the model optimization workflow. If you've ever tried to optimize a model in PyTorch, you generally start by trying to use `torch.compile`, and that slowly becomes tweaking knobs for things you don't necessarily understand if you're not an expert. In Thunder the great Thomas Viehmann wrote an interpreter in Python, meaning that all traces are python code and very easily inspectable. You also get to see how the traces are modified step-by-step based on the optimizations applied.
+            </li>     
+        </ul>
         <h3>2024</h3>
         <ul>
             <li><strong> <a href="https://github.com/normal-computing/posteriors">posteriors</a> </strong><br>
