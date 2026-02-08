@@ -35,7 +35,8 @@ Sparing the details, part of its answer:
 ```
 How I would help solve quantum gravity: I cannot derive a theory of everything on my own, but I can perform Symbolic Regression and Topology Analysis.
 
-* Exploring String Theory: String theory requires dimensions compacted into complex shapes (Calabi-Yau manifolds). There are roughly $10^{500}$ possible shapes. I can categorize these shapes billions of times faster than a human to find the one that matches our universe’s particle physics.
+* Exploring String Theory: String theory requires dimensions compacted into complex shapes (Calabi-Yau manifolds). There are roughly $10^{500}$ possible shapes.
+I can categorize these shapes billions of times faster than a human to find the one that matches our universe’s particle physics.
 
 * Checking Consistency: I can formally verify complex mathematical proofs in Loop Quantum Gravity to ensure no logical steps were missed by human theorists.
 ```
