@@ -33,12 +33,16 @@ What do you think are the biggest problems in modern physics, and how would you 
 Sparing the details, part of its answer:
 
 ```
-How I would help solve quantum gravity: I cannot derive a theory of everything on my own, but I can perform Symbolic Regression and Topology Analysis.
+How I would help solve quantum gravity: I cannot derive a theory of everything on my own, but I can
+perform Symbolic Regression and Topology Analysis.
 
-* Exploring String Theory: String theory requires dimensions compacted into complex shapes (Calabi-Yau manifolds). There are roughly $10^{500}$ possible shapes.
-I can categorize these shapes billions of times faster than a human to find the one that matches our universe’s particle physics.
+* Exploring String Theory: String theory requires dimensions compacted into complex shapes 
+(Calabi-Yau manifolds). There are roughly $10^{500}$ possible shapes.
+I can categorize these shapes billions of times faster than a human to find the one that matches
+our universe’s particle physics.
 
-* Checking Consistency: I can formally verify complex mathematical proofs in Loop Quantum Gravity to ensure no logical steps were missed by human theorists.
+* Checking Consistency: I can formally verify complex mathematical proofs in Loop Quantum Gravity
+to ensure no logical steps were missed by human theorists.
 ```
 
 Apart from the fact that Gemini seems to be aware of its own limitations, and that the system is quite complex and unknown with the post-training recipes that are applied, I can't help but think "what a bad answer". I don't know much about the topic, but I know that checking the proofs for loop quantum gravity isn't the best use of anyone's time, even that of an AI. Of course this is just a single example and my prompt wasn't particularly well-thought, but the crux of the problem is very simply shown here: there doesn't seem to be any understanding or explanations that come out of the model, except those that are found online. You also see this with code very often: it's by providing the explanations yourself, and re-nudging the model that you eventually get something useful. The out-of-distribution problem is really far from being solved for things that are not easily verifiable, which is tightly related to all this.
